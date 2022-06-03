@@ -1,0 +1,123 @@
+{
+
+     
+    
+     "features": [
+    
+       
+       {
+          "type": "Feature",
+         "geometry": {
+          "type": "GeometryCollection",
+          "Total production" : 1301298, 
+          "Tools" :[
+            {"Mullet" : "Gill net"} ,
+            {"Tilapia" : "Fishing net"} , 
+            {"Oyster" : "Cage"} ,
+            {"Crab" : "Crab trap"} 
+            
+
+          ] , 
+           "geometries": [
+             {
+               "type":"Point",
+               "name" : "Nasser"  , 
+               "coordinates":{"latitude":3638402.55,"longitude":2630656.77} , 
+               "fish": {
+                "fishType": "Tilapia" , "count" : 15940
+              } 
+             },
+             {
+              "type":"Point",
+              "name" : "Qarun" , 
+              "coordinates":{"latitude":3385336.66,"longitude":3427697.12} , 
+              "fish": {
+                "fishType": "Mullet" , "count" : 1424
+               }
+            },
+             {
+               "type": "Point",
+               "name" : "Burullus Lake" ,
+               "coordinates":{"latitude":3436303.0,"longitude":3697717.680324} , 
+               "fish": {
+                "fishType":"Tilapia" , "count": 30000
+               }
+               
+             },
+             {
+               "type": "Point",
+               "name" : "Manzalla Lake" ,
+               "coordinates":{"latitude":3565023.0,"longitude":3667142.9} , 
+               "fish": {
+                "fishType":"Tilapia" , "count": 32026
+                
+               }
+             
+             },
+             {
+              
+               "type": "Point",
+               "name" : "Lake Mariout" ,
+               "coordinates":{"latitude":3344120.0,"longitude":3647575.0} , 
+               "fish": {
+                "fishType": "Tilapia" , "count": 3284
+               }
+               
+             } , 
+         
+             {
+              
+              "type": "Point",
+              "name" : "Lake Idku" ,
+              "coordinates":{"latitude":3363840.7,"longitude":3665079.1} , 
+              "fish": {
+                "fishType": "Tilapia" , "count" : 6221
+               }
+              
+            } , 
+            {
+              
+              "type": "Point",
+              "name" : "Bardawil Lake" ,
+              "coordinates":{"latitude":3703832.6,"longitude":3649485.9} , 
+              "fish": {
+                "fishType": "Crab" , "count" : 1202
+               }
+              
+            }  , 
+            {
+              
+              "type": "Point",
+              "name" : "Toshka Lake" ,
+              "coordinates":{"latitude":3402670.8,"longitude":2683856.9} , 
+              "fish": {
+                "fishType":"Tilapia"  , "count": 2602
+               }
+              
+            }  , 
+            {
+              
+              "type": "Point",
+              "name" : "Dakhla oasis" ,
+              "coordinates":{"latitude":3222890.9,"longitude":2941296.8} , 
+              "fish": {
+              "fishType":"Tilapia" , "count" : 263
+              }
+              
+            }  , 
+            {
+              
+              "type": "Point",
+              "name" : "Great Bitter Lake" ,
+              "coordinates":{"latitude":3604158.8,"longitude":3546678.1} , 
+              "fish": {
+                "fishType": "Oyster" , "count" : 1312
+               }
+              
+            } 
+           ]
+         }
+       }
+
+     ]
+   }

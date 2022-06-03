@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Chart from './Component/ol code/pieChart';
+import Datamap from './Component/ol code/datapopup';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid ">
+      <h4 style={{"text-align":"center"}}>Egypt's lakes Dashboard</h4>
+      <div >
+        <Datamap />
+      </div>
+      <div >
+        <Chart />
+      </div>
+
     </div>
   );
 }
